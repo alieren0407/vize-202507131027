@@ -1,0 +1,8 @@
+# Veri Kartı (Data Card)
+
+- **Kaynak:** COCO (cocodataset.org) anotasyonları ve Kaggle "object detection" veri setleri[cite: 43].
+- **Lisans:** Açık veri lisansı[cite: 8].
+- **Asgari Gereksinim:** En az 500 tespit satırı ve iki farklı model[cite: 42].
+- **Temizleme Adımları:** 
+  - Işık koşulu sütunundaki ("good", "Good", "bad" vb.) yazım farkları standartlaştırıldı[cite: 43].
+  - 1'i aşan hatalı güven skorları kontrol edildi.
